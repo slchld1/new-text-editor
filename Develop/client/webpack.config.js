@@ -8,6 +8,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
+    //link entry src
     mode: 'development',
     entry: {
       main: './src/js/index.js',
@@ -20,6 +21,7 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    //template html
     plugins: [
       new HtmlWebpackPlugin({
         template: 'index.html',
@@ -29,8 +31,8 @@ module.exports = () => {
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: './src-sw.js',
-      }),
-
+      }), 
+      //description manifest
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
