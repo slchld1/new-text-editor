@@ -8,9 +8,9 @@
 </p>
 
 ## Description 💾
-This application is a PWA based Text Editor application.
+This application is a PWA based Text Editor application. This react application saves database using asset-cache. Application is available for installation and can be stored on desktop.
 
-
+Application is bundled using webpack and has built in plugins.
 ## User Story ✉️
 ~~~
 AS A developer
@@ -54,18 +54,17 @@ THEN I should have proper build scripts for a webpack application
 ## Installation 🔨
 In order to start your application `git clone` the repo down to your local.
 
+Direct to the `Develop` folder,
 Run `npm install` or `npm i` in order to install the following npm package,
 
-Make sure you follow the correct version listed in the dependencies of `package.json` file.
-
-
-then simply type `npm start` in the command line.
+then type `npm start` in the command line.
 
 ## Usage 💡
 
-Once `npm start` is entered in the command line, `node index.js` is run. The app uses the `inquirer` package to prompt the questions created in our scripts to create the following README.md file.
+Once `npm start` is entered in the command line, npm will run `npm run build` and run `server.js`
 
-After the completion of the questions, command line will return `Success!` and the newly created README.md file can be found under the `Develop` folder.
+Application will then launch in `http://localhost:3000/`
+
 
 ## License
 MIT License
