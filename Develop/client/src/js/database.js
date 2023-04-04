@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// adds logic to the 'put' method and adds it to database transaction as read and write.
 export const putDb = async (content) => {
   console.log('PUT');
 
@@ -26,7 +26,8 @@ export const putDb = async (content) => {
   console.log('data saved.', result);
 
 }
-// TODO: Add logic for a method that gets all the content from the database
+
+// adds logic for a method that gets all content in store from database to read only.
 export const getDb = async () => {
 
   console.log('GET');
