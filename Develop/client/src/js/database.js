@@ -24,7 +24,6 @@ export const putDb = async (content) => {
   const result = await request;
 
   console.log('data saved.', result);
-
 }
 
 // adds logic for a method that gets all content in store from database to read only.
