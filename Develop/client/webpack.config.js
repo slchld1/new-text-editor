@@ -32,7 +32,7 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: './src-sw.js',
       }), 
-      //description manifest
+      //description manifest.json file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -62,7 +62,6 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // babel-loader for ES6.
           use: {
             loader: 'babel-loader',
             options: {
