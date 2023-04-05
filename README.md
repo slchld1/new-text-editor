@@ -65,7 +65,13 @@ Once `npm start` is entered in the command line, npm will run `npm run build` an
 
 Application will then launch in `http://localhost:3000/`
 
+![localhost:3000](/images/sc-1.jpg)
 
+Once installed the application is launched
+
+![installed application](/images/installed-5.jpg)
+
+Application is also launched in `https://pacific-refuge-73534.herokuapp.com/` through heroku.
 ## License
 MIT License
 
