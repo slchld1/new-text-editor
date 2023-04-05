@@ -71,7 +71,7 @@ Once installed the application is launched
 
 ![installed application](/images/installed-5.jpg)
 
-Application is also launched in `https://pacific-refuge-73534.herokuapp.com/` through heroku.
+Application is also launched in <a href=https://pacific-refuge-73534.herokuapp.com/>`https://pacific-refuge-73534.herokuapp.com/`</a> through heroku.
 ## License
 MIT License
 
